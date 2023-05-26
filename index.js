@@ -22,5 +22,5 @@ app.get("/chefs/:id", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+  console.log(`My chef server port is: ${port}`);
 });
