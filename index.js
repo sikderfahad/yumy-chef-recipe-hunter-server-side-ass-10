@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 
-// const chefs = require("./data.json");
+const chefs = require("./data.json");
 
 app.use(cors());
 const port = 3000;
